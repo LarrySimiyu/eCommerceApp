@@ -11,6 +11,7 @@ export default function HomeScreen(props) {
             <div className="product">
               <div className="product-name">
                 <Link to={"/product/" + product._id}>
+                    {product.name}
                   <img
                     className="product-image"
                     src={product.image}
@@ -30,3 +31,6 @@ export default function HomeScreen(props) {
     </div>
   );
 }
+
+
+// 1:17:31
