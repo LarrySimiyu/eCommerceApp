@@ -25,7 +25,7 @@ function App() {
         <button onClick={openMenu}>
           &#9776;
         </button>
-        <Link to="/">amazona</Link>
+        <Link to="/">Camera</Link>
         {/* <a href="index.html">amazona</a> */}
       </div>
       <div className="header-links">
